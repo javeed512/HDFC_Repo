@@ -1,0 +1,91 @@
+
+Product Based - Google , Microsoft , Apple , Meta , IBM , Oracle.....
+
+
+Types of Softwares:
+===================
+1. Desktop/ Stand Alone
+Ex: MS Office , Browsers , O.S , Caculator , Editors ...
+
+
+2. Web Applications
+Web Application are those apps / softwares which will be hosted by Web servers like Tomcat , Weblogic,
+JBoss, Resin ...
+
+Ex: Any Website ,Flipkart , Gmail , Facebook , Youtube , HDFC Bank Website....  
+
+
+3. Mobile Apps
+Mobile Apps are develop by using Mobile Development platforms like Android , IOS ...
+Mobile Apps can be stand-alone or web.
+
+
+
+
+
+SDLC:
+-----
+1.Requirements & Analysis.	
+Project Planning.
+	
+2.Design
+Developers: Algorithms , Flow charts,UML Diagrams , Architectures, Design patterns, Protocols
+Testers: Test Cases , Test Suite , 
+Database Schemas , Architectures
+High Level Designs , Low Level Designs
+UI Layouts , Static Pages 
+
+	
+3.Coding & Implementation.
+Developers do the coding and unit testing (JUnit)
+	
+4.Testing. (TDD/ BDD)
+Integration Testing
+Selenium, TestNG ,  Cucumber , Gerkins
+	
+5.Deployment  	
+ Maintenance
+
+
+Terminologies in Scrum:
+======================
+->Sprint-Retrospection: 
+What is Achieved / What will achieve / What is going to be achieve
+-> Backlogs : Set of requirements.
+
+
+
+
+AGILE: It means "ability to response to changes at any point of time" from Requirement,Tech Team, Clients/Customers.
+
+Software Development Methodology
+Agile implementations are SCRUM , KANBAN , XP.
+Values:
+=======
+-> It is an  Iterative and  incremental process.
+-> Direct collaboration with Customers.
+-> Deliver multiple software increments/realeases
+-> Each Iteration lasts for 1 to 3 weeks.
+-> Engineering actions are carried out by cross functional teams.
+
+12-Principles:
+===============
+1.Satisfy Customers
+2.Welcome Changing Requirements
+3.Deliver Working Software Frequently.
+4.Build projects around motivated individuals
+5.Sustainable Development (Sponsors,developers,end users etc should maintain constance phase)
+6.Work Together
+7.Measure project progress from Working Software 
+8.Face-Face Conversation.
+9.Continous attention to the technical excellence and for good design
+10.Simplicity
+11.Self-Organizing teams 
+12. Adjust team and team members behavior accordingly.
+   
+
+
+
+
+ 
+  
