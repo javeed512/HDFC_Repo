@@ -1,0 +1,8 @@
+101   javeed  50000
+102   tom     30000
+103   smith    4000
+104   ford     5000
+105    king    25000
+106  Tushar  25000
+107   Neha    30000
+108    Sahil  25000

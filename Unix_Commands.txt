@@ -1,0 +1,92 @@
+
+Operating System:
+Its an user interface between End User and Hardware Coponents/Devices.
+O.S Manage all tasks or jobs for particular device.
+
+Ex: Windows DOS , Windows xp, 7 , 10 , 11 
+    Unix OS , Linux OS , Ubuntu OS , Backtrack OS , Fedora Os , Solaris etc
+
+ Mobile phones uses  Android OS, Mac IOS 
+
+
+We can access any O.S or software in 2 ways 
+i. GUI - Graphical User Interface.
+ii.CLI - Command Line Interface
+
+
+Program: Set of instructions, that takes inputs ,process/perform task and give outputs.
+Software: Set of programs. Ex: O.S , Application , Website , Game App ...
+
+All O.S are multi user and multi tasking in nature.
+
+Multitasking: Performing multiple jobs/task at same time (simultaneously)
+O.S performs Process Based multi-tasking.
+
+
+
+
+
+Unix Commands:
+=============
+Directory Commands:
+
+cd- change directory
+
+mkdir - To make new directory
+rmdir - remove/delete directory
+
+ls- list out all files and folders in current directory
+
+grep- It is a filter command used for searching content based on text/pattern  in given file.
+grep- Global Regular Expression Point
+
+Ex: grep  'Javeed'  employees.txt
+Above command search for the word 'Javeed' and all the lines which consist of Javeed word will be display.
+
+sort filename - to sort and display data , 
+sort -r filename -> sort and display data in reverse order
+
+cat - it is for displaying file contents.
+cat > filename  - to create new file and write data.
+
+touch filename - to create new file
+
+mv- to replace or rename the file
+
+Ex: mv  employees.txt    emp_details.txt
+
+cp- to copy one file into another we use cp command
+Ex: cp  demo.txt(old)   hello.txt(new)
+
+
+
+
+Display Commands:
+=================
+man- this command is use to display manual for particular unix command (details)
+
+
+date- to display system date.
+
+examples :
+$ date +"%D"
+02/14/23
+$ date +"%D %H %M  %S"
+02/14/23 12 30  35
+$ date +"%D %H %M  %S"
+02/14/23 12 31  01
+$ date +"%D %H %M  %S"
+02/14/23 12 31  15
+
+
+kill  248 (process id which need to be killed)
+
+
+
+
+
+
+
+
+
+
