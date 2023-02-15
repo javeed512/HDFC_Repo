@@ -1,0 +1,52 @@
+
+C-lang:
+=======
+
+Programming lang
+
+if(5>3)
+{
+
+
+}
+
+Unix Shell Commands
+cp , cat , touch , mv , rm ,date , mkdir
+
+cat > myfile.txt
+
+
+To introduce basic programming concepts like if ,else , loops etc
+
+Shell Scripting
+
+if() then
+statement-1;
+else
+statement-2;
+fi;
+
+
+===========================
+
+usr/hdfc/ demo.sh
+
+
+home/bin/  demo.sh
+
+export  path= "demo.sh"
+
+
+javeed/ demo.sh  
+
+
+
+
+
+
+
+
+
+
+
+
