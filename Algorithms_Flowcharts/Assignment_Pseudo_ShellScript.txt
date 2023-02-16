@@ -1,0 +1,17 @@
+1. Organization employees are recognized with different tags based on their experience. 
+
+Years of Experience	Tag Color
+0  to <3	        Blue
+3  to <5	        Grey
+5  to <10 	        Yellow
+    >10	                 Red
+Write pseudo code to accept the experience and display their tag Color. 
+ 
+
+2.Write pseudo code to print the following mathematical series.
+0 1 1 2 3 5 8 13 21 …. N. Where N is accepted from the user.
+
+
+3.Write a pseudo code to accept a number and check whether a given number is an Armstrong number. For example, 371 is an Armstrong number since (3*3*3) + (7*7*7) + (1*1*1) = 371.
+
+
