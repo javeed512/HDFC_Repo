@@ -1,0 +1,57 @@
+Algorithm:
+
+c , java , shell scritping , python
+
+
+Algorithm:
+----------
+Addition of 2 numbers
+
+step1: Declare two variables
+step2: Initialize variables with default values
+step3: Create a function/method with 2 params
+step4: return number as result by adding 2 parameters values
+step5: invoke function to get result
+
+Pseudo code:
+------------
+step1:  DECLARE INT A,B
+step2:  Create a Function  add(A,B)
+setp3:   retun function value C
+step4:   call add(A,B)
+
+
+java
+=====
+class Demo{
+ int  add(int a, in b){
+
+	c = a+b;
+	return c;
+
+ }
+}
+
+c-lang:
+=======
+
+function  add(int amount){
+
+
+	return amount + (amount%18)
+}
+
+shell script
+=============
+
+function add(){
+
+
+return $1 + $2
+
+}
+
+
+
+
+
