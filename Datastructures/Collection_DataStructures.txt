@@ -38,7 +38,7 @@ names[2] = "Ford";
 List
 -----
 List Data structure we can insert duplicate values/elements.
-Insertion order is preserved
+Insertion order is preserved for list family.
 Ex: ArrayList , LinkedList 
 
 ArrayList alist = new ArrayList(10); // singly linked list
@@ -79,7 +79,7 @@ LinkedHashSet = LinkedList + HashSet
 
 	
 LinkedHashSet   linkHS = ne LinkedHashSet();
-It preserved the insertion order. 
+It preserved the insertion order this feature  taken from LinkedList.
 
 		linkHS.add(103);
 		linkHS.add(104);
@@ -171,5 +171,30 @@ TreeMap = TreeSet + List
 	map.put("AAA","ford"); // key cannot be heterogenous
 
 	PRINT:  101-smith , 102-javeed , 103- tom
+
+
+
+Queue:
+========
+Queue is defined as a linear data structure.
+Queue is open at both the ends and operations are performed based on FIFO (First In First Out) order.
+In Queue data will be insert/write from rear-end/tail and read/exit from frontend/head
+But in some cases data can be retrieve from rear end also because queues are open from both the ends.
+
+Head                 Tail
+  1 2 3 4 5 6 .. 99 100
+
+
+Stack:
+========
+This datastructure is sued when ever we want to arrange data in LIFO rule.
+
+Ex: Stack in Programming Lang , Plates , CD-stand ... 
+
+
+
+
+
+
 
 

@@ -1,0 +1,197 @@
+
+Program : Set of instruction that takes inputs , process it and return outputs.
+Software: Set of Programs known as softwares / application.
+
+Software/Application: 
+1. Desktop/standalone
+2. Web Application
+3. Mobile Apps
+
+High Level Language:
+A language which is easy to understand and implement by users.
+Ex: C , C++ , Java , C# ,Python
+
+Types of concepts for implementing languages.
+1. Functional Programming Concepts
+Ex: C-lang
+
+eid;
+ename;
+salary;
+
+function displayEmployee(eid,ename,salary){
+
+	print eid , ename , salary
+
+}
+
+
+
+
+
+2. Object Oriented Programming  Concepts (OOPs)
+
+package 1/ folder
+
+
+public  class Employee{
+
+ public	int x;
+
+
+		protected  String name ="javeed";	
+
+
+	Employee(eid,ename,salary){ // constructor
+
+		print eid,ename salary
+	}
+
+
+
+	Employee e1 = new Employee(101,"javeed",5000);
+
+	Employee e2 = new Employee(102,"suraj",8000);
+
+
+       void display(){   // default access modifier
+
+		System.out.print(e1);
+	}
+
+	
+
+
+	print(e1)
+	print(e2)
+
+
+}
+
+
+
+
+
+
+folder/package 2
+
+class Dept  extends Employee{
+
+
+
+Employee e3;
+
+name;
+
+}
+
+
+
+
+
+demo.c
+function directly in file demo.c
+
+public int add(int a, int b){
+
+		return a+b;
+
+	}
+
+
+public int div(int a, int b){
+
+	return a/b;  // a=5 , b=0
+
+}
+
+
+
+public class Demo{
+
+
+	public int add(int a, int b){
+
+		return a+b;
+
+	}
+
+
+}
+
+Naming convections in OOPs Java-lang:
+=====================================
+
+package: write package in small letter
+--------
+hdfc , com - | 
+	    google
+
+shell.demo
+
+class:  Using Initcap
+----------------------
+Student , Employees , Bank , StudentData , ProductDetails	
+
+
+methods and variables:
+----------------------
+
+camelCase:    
+  
+int account;
+int accountNumber;
+
+double  employeeSalary;
+
+
+display();
+displayEmployeeData();
+
+
+
+
+
+
+class  Student{
+
+	
+	public getData(Student st){
+		
+	print(st);
+	
+	}
+
+}
+
+class Faculty{
+
+	main(){
+		Student s1 = new Student(101,"tom",80);
+		
+		getData(s1)
+
+
+
+	}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
