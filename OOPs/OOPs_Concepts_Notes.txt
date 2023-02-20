@@ -1,0 +1,251 @@
+OOPs/ Object Oriented Programming Concepts:
+============================================
+class: Its a reusable component
+	Its a blue print using which object can be created/ instantiated.
+	Its a collection object
+	Class is imaginary in nature
+
+Object: Object is any real world entity , which exist physically in read world.
+Ex: Apple , Car, Laptop , Javeed , Tiger , dog , Walls , Flights ,Banks
+
+
+public  class   Employee extends Object   implements   MyInterface{
+
+
+	private int eid;
+	private String ename;
+
+
+	public Employee(){  // default - constructor 
+		
+		// logic1
+
+	}                          // constructor over loading
+
+	public Employee(int eid){  // parameterized - constructor 
+
+		// logic2
+
+	}
+
+
+	public int  add(int a, int b){
+
+		return a+b;
+
+	}
+				// method overloading or static/compile time polymorphism
+
+	public int  add(int a, int b ,double c){
+
+		return a+b+c;
+
+	}
+
+
+
+public static void main(){
+
+
+		new Employee(111);	
+
+
+	}
+
+
+
+}
+
+
+
+
+
+
+Example:
+=======
+
+public   class  Dog  extends Animal   {
+
+	private  int age;
+	private  String color;
+	private  String breed;
+
+
+	public Dog(int age, String color , String breed){
+
+		
+
+	}
+
+
+	public Dog  getDogDetails(){
+
+		return new Dog(2,'black','bulldog');
+	}
+
+
+	public void setAge(int age){
+
+		this.age = age;
+	}
+	
+	public int  getAge(){
+
+		return this.age;
+	}
+
+
+	public void setColor(String color){
+
+		this.color = color;
+	}
+	
+	public String getColor(){
+
+		return this.color;
+	}
+
+
+
+
+
+	public String bark(){
+
+	return "bow bow bow";
+
+	}
+
+	public  String  run(){
+
+
+	return "running";
+
+	}
+
+
+
+}
+
+
+===================
+
+class   Demo {
+
+	main(){	
+
+
+	Dog d1 = new  Dog(3,"brown","bulldog");
+
+		d1.bark();
+		d1.run();
+
+		
+
+	
+	Dog d2 = new  Dog(2,"white","bulldog");
+	
+	Dog d3 = new  Dog(0,"black",null);
+
+
+	Dog d  = new Dog();
+
+			
+			d.setColor("black")
+
+
+	print(d.getColor());
+
+
+
+	}
+
+
+
+
+}
+
+
+
+Abstraction :
+=============
+Highlighting set of services and hiding implementation code from the user.
+1. Data Hiding (using private properties/variables in entity classes)
+2. Process Hiding (hiding implementation code from users)
+
+Abstraction can be achieved using Java interfaces and  abstract classes.
+
+
+Abstraction = Data hiding + Encapsulation
+
+
+Inheritance: When one class extends another class to access existing propertings and services , for code reusibility known as Inheritance or IS-A Relationship.
+
+class  Car {
+
+	m1(){
+	
+	}
+
+	public void gears(int n){
+
+		//logic to run on 4-gears
+	}
+
+
+}
+
+class  HondaCar  extends Car{
+
+	m2(){.....}
+
+
+	public void gears(int n){
+		//logic to run on 5-gears
+
+	}
+
+
+}
+
+Car  c1 = new Car();
+	c1.m1();
+
+Car  h1 = new HondaCar(); //runtime polymorphism
+
+	h1.m1();
+	h1.m2();
+
+HAS-A Relation ship: When one class create object of another class directly and accessing services.
+
+
+
+
+Polymorphism:
+
+In Java every  class , object variable etc will have polymorphism feature.
+
+Ex:
+class Student {
+
+
+}
+
+Student s1 ; // data type
+
+
+char  ch = 'A';
+
+char ch = 65;
+
+Dynamic/Runtime Polymorphism
+==============================
+Ex: When Parent class reference variable holding child class object this is known as 
+    Runtime/Dynamic Polymorphism.
+Ex: When Parent class having one method and same method is overriding by child class with same name
+    and parameters but different logic known as  Runtime/Dynamic Polymorphism.
+
+Static/Compile time Polymorphism
+==================================
+Ex: method overloading (in same class , same name but different parameters )
+Ex: constructor overloading (same class , same name but diff parameters)
+

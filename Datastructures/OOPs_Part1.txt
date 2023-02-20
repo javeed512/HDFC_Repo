@@ -1,0 +1,129 @@
+
+demo.c
+void main(){
+
+	int eid =101;
+	double salary = 9000;
+
+	// logic , functionality
+
+
+
+
+}
+================================
+Java:
+
+Employee.java
+-----------------
+
+public class  Employee
+{
+
+ private       int eid;   // data hiding
+ private       String ename;
+ private      double salary;          // instance variable
+
+	final int XYZ = 10;
+	
+	public Employee(int eid , String ename, double salary){ // construtor 
+
+		this.eid = eid;
+		this.ename = ename;
+		this.salary =salary; 	
+	}
+
+	String getEname(){
+		
+add(5,9);
+
+	
+	
+		return ename;
+
+	}
+
+	public int add(int a , int b){
+
+		return a+b;
+
+	}
+
+
+
+	public static void main(){
+
+		Employee e1 =	new Employee(102,"smith",9000);
+
+		Employee e2 =	new Employee(104,"tom",6000);
+
+		Employee e3 =	new Employee(107,"ford",5000);
+
+		
+
+	}
+
+
+
+
+}
+
+
+
+
+
+
+
+public:
+========
+class , interface , constructors , methods
+
+default:
+=========
+methods , variables
+
+private:
+=========
+properties or variables
+
+
+protected:
+===========
+methods
+
+
+Naming Convections:
+--------------------
+
+package: lower case 
+===================
+java.lang , hdfc.bank ,  com.otomyet
+
+class / interface
+================
+Initcap names
+Ex:  Object  , String , Number , Student , Employee, EmployeeDetails
+
+
+Constructors :
+================
+Same as class name
+Initcap
+Ex: Object()  , String() , Student() , Employee()
+
+variables/methods
+===================
+camel-case 
+
+Ex:  account, accountNumber , student, studentName
+    display() , show() , get() , getEmployee() , setEmployee(), isValid()
+
+Final Variables:
+=================
+It is should be declare in Upper Case only
+Block Letters
+
+Ex:  PI = 3.141 ,  IFSC_CODE , TOKEN_NUMBER
+
+
+
